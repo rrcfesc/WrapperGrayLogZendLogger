@@ -4,12 +4,12 @@
  * @copyright Copyright (c) 2018 Rioxygen. (http://www.Rioxygen.com/)
  * @license   Copyright
  */
-namespace Rioxygen\Graylog;
+namespace Rioxygen\Graylog\Logger;
 
 use Psr\Log\LoggerInterface;
 use Rioxygen\Graylog\LoggerAdapter;
 use Zend\Log\Logger;
-use Gelf\Logger;
+use Gelf\Logger as GelfLogger;
 
 /**
  * 
@@ -17,19 +17,23 @@ use Gelf\Logger;
  */
 class ZendLogger extends LoggerAdapter implements LoggerInterface
 {
-    private function prepare() {
+    public function __construct($options = array()) {
+        parent::__construct($options);
+    }
+
+    protected function prepare() {
         ;
     }
-    private function validate() {
+    protected function validate() {
         ;
     }
-    private function process() {
+    protected function process() {
         ;
     }
-    private function execute() {
+    protected function execute() {
         ;
     }
-    public function emergency(){
+    public function emergency($message, array $context = array()){
         
     }
     public function alert($message, array $context = array())

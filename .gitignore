@@ -1,4 +1,6 @@
 .idea
+build/*
+build
 sftp-config.json
 *.sublime-project
 *.sublime-workspace
