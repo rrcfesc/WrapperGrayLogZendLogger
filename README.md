@@ -20,7 +20,7 @@ Add gelf-php to `composer.json` either by running `composer require graylog2/gel
 
     "require": {
        // ...
-       "rioxygen/Graylog": "~1.0"
+       "Rioxygen/Graylog": "~1.0"
        // ...
     }
 
