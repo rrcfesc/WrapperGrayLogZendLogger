@@ -5,4 +5,13 @@ php:
   - '7.1'
   - hhvm # on Trusty only
   - nightly
-before_script: composer update
+before_script:
+  - composer self-update
+  - composer install --dev
+
+script: 
+  - vendor/bin/phpunit --coverage-text --coverage-clover=coverage.clover
+
+notifications:
+  email:
+    - ricardojesus.ruizcruz@gmail.com
