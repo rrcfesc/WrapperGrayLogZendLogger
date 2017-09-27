@@ -38,7 +38,6 @@ abstract  class LoggerAdapter
     public function __construct($options = [])
     {
         $this->isProduction = (bool) Arr::get($options, 'prod', false);
-        $this->shipment = Arr::get($options, 'shipment');
     }
     /**
      * Asegura que todos los datos estan correctos
