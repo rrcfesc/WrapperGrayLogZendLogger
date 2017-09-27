@@ -1,8 +1,22 @@
 <?php
+/**
+ * Rioxygen
+ * @copyright Copyright (c) 2018 Rioxygen. (http://www.Rioxygen.com/)
+ * @license   Copyright
+ */
 namespace Rioxygen\Graylog;
 
+/**
+ * Test de Clase
+ * @author Ricardo Ruiz <ricardojesus.ruizcruz@gmail.com>
+ * @version 1.0
+ */
 class ArrTest extends \PHPUnit_Framework_TestCase
 {
+    /**
+     * providerGet
+     * @return array
+     */
     public function providerGet()
     {
         return array(
@@ -16,6 +30,7 @@ class ArrTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
+     * {@inheritDoc}
      * @dataProvider providerGet()
      */
     public function testGet(array $array, $key, $default, $expected)
