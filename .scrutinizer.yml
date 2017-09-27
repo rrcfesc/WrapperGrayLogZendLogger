@@ -39,8 +39,8 @@ checks:
         require_scope_for_methods: true
         require_php_tag_first: true
         remove_extra_empty_lines: true
-        psr4_switch_declaration: true
-        psr4_class_declaration: true
+        psr2_switch_declaration: true
+        psr2_class_declaration: true
         property_assignments: true
         prefer_while_loop_over_for_loop: true
         properties_in_camelcaps: true
