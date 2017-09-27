@@ -1,7 +1,7 @@
 {
     "name": "grayloger-class",
     "description": "Adapter de Zend\/Logger\/Logger" ,
-    "license": "",
+    "license": "MIT",
     "keywords": ["wrapper","graylog","logger"],
     "authors": [
         {
