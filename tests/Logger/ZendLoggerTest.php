@@ -15,9 +15,9 @@ use Rioxygen\Graylog\Logger\ZendLogger;
  */
 class ZendLoggerTest extends \PHPUnit_Framework_TestCase
 {
-    public function testMockRates()
+    public function testConstruct()
     {
-        $rateAdapter = new ZendLogger([
+        $adapter = new ZendLogger([
             'prod' => false,
             'key' => 'XXX',
             'password' => 'XXX',
