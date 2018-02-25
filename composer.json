@@ -1,7 +1,7 @@
 {
     "name": "rioxygen/wrappergraylogzendlogger",
     "description": "Adapter de Zend\/Logger\/Logger" ,
-    "license": "BSD 3-Clause License",
+    "license": "MIT",
     "keywords": ["wrapper","graylog","logger"],
     "authors": [
         {
