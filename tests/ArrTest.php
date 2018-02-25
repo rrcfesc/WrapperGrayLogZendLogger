@@ -40,4 +40,5 @@ class ArrTest extends \PHPUnit_Framework_TestCase
             Arr::get($array, $key, $default)
         );
     }
+    
 }
